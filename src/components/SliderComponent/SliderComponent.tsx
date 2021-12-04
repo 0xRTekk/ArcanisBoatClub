@@ -32,6 +32,7 @@ const SliderComponent: React.FC = () => {
   //   AOS.init({});
   // }, []);
   const settings = {
+    autoplay: true,
     centerMode: true,
     infinite: true,
     dots: true,
@@ -39,7 +40,6 @@ const SliderComponent: React.FC = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     speed: 500,
-    arrows: false,
     responsive: [
       {
         breakpoint: 1550,
