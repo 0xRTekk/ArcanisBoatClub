@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./footer.css";
 import { ReactComponent as Discord } from "../../assets/icons/discord.svg";
 import { ReactComponent as Twitter } from "../../assets/icons/twitter.svg";
-import { ReactComponent as Opensea } from "../../assets/icons/opensea.svg";
+import { ReactComponent as Instagram } from "../../assets/icons/instagram.svg";
 import footerLogo from "../../assets/icons/vandal_white.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
             <Twitter />
           </a>
           <a href="https://www.instagram.com/arcanis.design/">
-            <Opensea />
+            <Instagram />
           </a>
           <a href="">
             <Discord />
