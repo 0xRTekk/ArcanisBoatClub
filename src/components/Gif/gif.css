@@ -5,6 +5,7 @@
   font-weight: 800;
   /* background: linear-gradient(90deg, #d02561, #ff79a8); */
   background: linear-gradient(90deg, #CE4B2A, #EA8503);
+  background-clip: text;;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -45,9 +46,9 @@
     width: 400px;
     height: 400px;
   }
-  .gif-pyramid img:first-child {
+  /* .gif-pyramid img:first-child {
     margin-left: 310px;
-  }
+  } */
 }
 @media screen and (max-width: 970px) {
   .gif-component {
@@ -74,9 +75,8 @@
   .gif-pyramid img:first-child {
     margin-left: 0;
     right: -40px;
-
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: auto;
   }
 }
 @media screen and (max-width: 500px) {
