@@ -32,10 +32,10 @@ const Footer: React.FC = () => {
       </div>
       <div className="footer-right">
         <div className=" footer-icons">
-          <a href="">
+          <a href="https://twitter.com/ArcanisDesign/">
             <Twitter />
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/arcanis.design/">
             <Opensea />
           </a>
           <a href="">

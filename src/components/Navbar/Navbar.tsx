@@ -18,16 +18,16 @@ const Navbar: React.FC = () => {
         <Logo />
       </div>
       <div className="ext-icons">
-        <a href="">
+        <a href="https://twitter.com/ArcanisDesign/">
           <Twitter />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/arcanis.design/">
           <Instagram />
         </a>
         <a href="">
           <Discord />
         </a>
-        <button className="connect-btn">Connect</button>
+        {/* <button className="connect-btn">Connect</button> */}
       </div>
     </div>
   );

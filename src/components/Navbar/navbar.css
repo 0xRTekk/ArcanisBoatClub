@@ -106,18 +106,19 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 0 30px;
+  }
   .logo svg {
     width: 100px;
     height: 100px;
   }
-  .logo h2 {
-    display: none;
-  }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 426px) {
   .navbar {
-    padding: 20px 60px;
+    padding: 20px 30px;
+    justify-content: flex-start;
   }
   .navbar .logo svg {
     display: none;
