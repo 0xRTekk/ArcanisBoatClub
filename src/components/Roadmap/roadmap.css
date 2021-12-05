@@ -83,30 +83,17 @@
   z-index: 100000 !important;
   display: block;
 }
-@media screen and (max-width: 1200px) {
-  .roadmap > div {
-    /* width: 90%;
-    margin: auto; */
-  }
-  .vertical-line {
-    /* position: absolute;
-    width: 1px !important;
-    height: 165vh;
-    min-height: 0; */
-    /* left: 117px !important; */
-  }
-}
 @media screen and (max-width: 850px) {
-  .vertical-line {
+  .line-line {
+    margin-top: -100px;
+    height: 100px;
   }
   .roadmap > div {
-    background: #1C1B1B;
     width: 700px !important;
   }
 }
 @media screen and (max-width: 750px) {
   .roadmap > div {
-    background: #1C1B1B;
     width: 600px !important;
   }
   .road-intro {
@@ -114,6 +101,7 @@
   }
   .roadmap h3 {
     font-size: 24px;
+    margin-left: 0;
   }
   .roadmap div div {
     flex-direction: column;
@@ -124,11 +112,11 @@
 
 @media screen and (max-width: 650px) {
   .roadmap > div {
-    background: #1C1B1B;
     width: 450px !important;
-  }
-  .roadmap > div {
     padding-right: 20px;
+  }
+  .roadmap p {
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -138,5 +126,16 @@
   }
   .roadmap h3 {
     font-size: 24px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .vertical-line,
+  .line-line,
+  .diamond-raod {
+    display: none;
+  }
+  .roadmap > div {
+    width: 100% !important;
+    padding: 40px;
   }
 }
