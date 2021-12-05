@@ -224,6 +224,7 @@
 @media screen and (max-width: 800px) {
   .team-member {
     flex-direction: column;
+    width: 31%;
   }
   .team {
     width: 100%;
@@ -254,6 +255,12 @@
   }
 }
 @media screen and (max-width: 630px) {
+  .team-list {
+    flex-direction: column;
+  }
+  .team-member {
+    width: 100%;
+  }
   .team-slider-component img {
     width: 42vw !important;
     height: 100%;
