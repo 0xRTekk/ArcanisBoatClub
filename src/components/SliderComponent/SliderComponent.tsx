@@ -53,6 +53,15 @@ const SliderComponent: React.FC = () => {
         breakpoint: 768,
         settings: {
           infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 450,
+        settings: {
+          infinite: true,
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
