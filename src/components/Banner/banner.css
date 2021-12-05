@@ -73,7 +73,22 @@
 .banner-btn:hover {
   background-color: #6c77ea !important;
 }
+@media screen and (max-width: 768px) {
+  .timer-cont {
+    padding: 20px;
+  }
+  .timer-cont p {
+    font-size: 1.3em;
+  }
+}
 @media screen and (max-width: 500px) {
+  .timer-cont {
+    width: 60%;
+    top: 60%;
+  }
+  .timer-cont p {
+    font-size: 0.9em;
+  }
   .banner:before {
     width: 50.5%;
   }
