@@ -54,5 +54,14 @@
     "artist": "Artiste",
     "dev": "Développeur",
     "gallery": "Galleriste"
+  },
+  "footer": {
+    "copyright": "©2021 Arcanis Boats Club. Tous droits résérvés.",
+    "link": {
+      "shop": "Arcanis Design",
+      "opensea": "Collection OpenSea",
+      "terms": "Termes et conditions",
+      "smartcontract": "Smart Contrat"
+    }
   }
 }
