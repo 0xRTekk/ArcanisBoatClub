@@ -1,0 +1,14 @@
+{
+  "timer": {
+    "day": "Jours",
+    "hour": "Heures",
+    "min": "Mins",
+    "sec": "Secs"
+  },
+  "presentation": {
+    "title": "Arcanis Boat Club",
+    "desc1": "L'Arcanis Boat Club prévoit de délivrer une série de 10 000 bateaux générés de manière unique naviguant sur la blockchain ethereum.",
+    "desc2": "Chaque NFT est unique et est basé sur l'art physique d'Arcanis Design.",
+    "desc3": "Chaque pièce de bateau est physiquement utilisée sur une véritable œuvre d'art signée Arcanis Design !"
+  }
+}
