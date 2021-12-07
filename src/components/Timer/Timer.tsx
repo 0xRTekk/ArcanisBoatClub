@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import "../Banner/banner.css";
+import { useTranslation } from "react-i18next";
+
 const RowContainer = styled.div`
   color: hsl(0, 0%, 100%);
   display: flex;
@@ -74,32 +76,26 @@ const Timer: React.FC<timerTypes> = ({
     return () => clearInterval(timer);
   }, [mintStartAt]);
 
+  const { t, i18n } = useTranslation("common");
+
   return timerVisible ? (
     <Card>
       <RowContainer>
         <Item>
-          <ItemValue id="days">
-            {days.toLocaleString("en-US", { minimumIntegerDigits: 2 })}
-          </ItemValue>
-          <ItemLabel>Day</ItemLabel>
+          <ItemValue id="days">{days.toLocaleString("en-US", { minimumIntegerDigits: 2 })}</ItemValue>
+          <ItemLabel>{t("timer.day")}</ItemLabel>
         </Item>
         <Item>
-          <ItemValue id="days">
-            {hours.toLocaleString("en-US", { minimumIntegerDigits: 2 })}
-          </ItemValue>
-          <ItemLabel>Hour</ItemLabel>
+          <ItemValue id="days">{hours.toLocaleString("en-US", { minimumIntegerDigits: 2 })}</ItemValue>
+          <ItemLabel>{t("timer.hour")}</ItemLabel>
         </Item>
         <Item>
-          <ItemValue id="days">
-            {minutes.toLocaleString("en-US", { minimumIntegerDigits: 2 })}
-          </ItemValue>
-          <ItemLabel>Min</ItemLabel>
+          <ItemValue id="days">{minutes.toLocaleString("en-US", { minimumIntegerDigits: 2 })}</ItemValue>
+          <ItemLabel>{t("timer.min")}</ItemLabel>
         </Item>
         <Item>
-          <ItemValue id="days">
-            {seconds.toLocaleString("en-US", { minimumIntegerDigits: 2 })}
-          </ItemValue>
-          <ItemLabel>Sec</ItemLabel>
+          <ItemValue id="days">{seconds.toLocaleString("en-US", { minimumIntegerDigits: 2 })}</ItemValue>
+          <ItemLabel>{t("timer.sec")}</ItemLabel>
         </Item>
       </RowContainer>
     </Card>
