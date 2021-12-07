@@ -15,6 +15,8 @@ import boat_09 from "../../assets/images/9.png";
 // import "swiper/css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useTranslation } from "react-i18next";
+
 const data1: Array<string> = [
   boat_01,
   boat_02,
@@ -69,13 +71,15 @@ const SliderComponent: React.FC = () => {
       },
     ],
   };
+  const { t, i18n } = useTranslation("common");
+
   return (
     <div
       data-aos="fade-down"
       data-aos-duration="1000"
       className="slider-container"
     >
-      <h2>Last minted NFTs</h2>
+      <h2>{t("slider.title")}</h2>
       <Slider className="slider-component" {...settings}>
         {data1?.map((item, index) => (
           <div className="each-slide" key={index}>
