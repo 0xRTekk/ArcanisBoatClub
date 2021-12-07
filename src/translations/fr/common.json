@@ -48,5 +48,11 @@
         "desc": "Un dernier cadeau de 100 000$ sera réservé à un membre aléatoire de l'Arcanis Boat Club ! Cela vaut la peine de terminer cette feuille de route, n'est-ce pas ?"
       }
     }
+  },
+  "team": {
+    "title": "Rencontrez l'équipe",
+    "artist": "Artiste",
+    "dev": "Développeur",
+    "gallery": "Galleriste"
   }
 }

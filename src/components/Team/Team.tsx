@@ -6,32 +6,34 @@ import darnom from "../../assets/images/17.png";
 import Member from "./Member";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useTranslation } from "react-i18next";
 
 const Team: React.FC = () => {
   useEffect(() => {
     AOS.init({});
   }, []);
+  const { t, i18n } = useTranslation("common");
   return (
     <div className="team" data-aos="fade-down" data-aos-duration="1200">
-      <h2>Meet the Team</h2>
+      <h2>{t("team.title")}</h2>
       <div className="team-list">
         <Member
           memberName="Arcanis"
-          memberRole="Artist"
+          memberRole={t("team.artist")}
           memberImg={arcanis}
           fadeDirection="fade-right"
           fadeDuration="800"
         />
         <Member
           memberName="Tekky"
-          memberRole="Developper"
+          memberRole={t("team.dev")}
           memberImg={tekky}
           fadeDirection="fade-down"
           fadeDuration="1500"
         />
         <Member
           memberName="Darnom"
-          memberRole="Gallery owner"
+          memberRole={t("team.gallery")}
           memberImg={darnom}
           fadeDirection="fade-left"
           fadeDuration="800"
