@@ -14,5 +14,39 @@
   },
   "slider": {
     "title": "La collection"
+  },
+  "roadmap": {
+    "title": "Feuille de route",
+    "desc": "Pour vous remercier de gonfler nos voiles, nous vous avons préparés une magnifique feuille de route pleine de belles surprises et de cadeaux ! A chaque pourcentage de ventes atteint, des offres exclusives et des cadeaux vous attendent ! Rejoignez cette aventure et faites partie du mouvement OTE : Own To Earn (Posséder pour gagner)",
+    "step": {
+      "1": {
+        "title": "Don d'œuvres physiques",
+        "desc": "50 propriétaires se verront offrir une œuvre physique ! Ces pièces, véritables oeuvres d'art faites main, seront la représentation physique d'un des NFT possédé par le propriétaire !"
+      },
+      "2": {
+        "title": "Station radio LoFi",
+        "desc": "L'Arcanis Boat Club va se doter de sa propre radio lofi diffusée 24h/24 sur YouTube et twitch ! Venez profiter de l'ambiance créative du Club et laissez-vous inspirer."
+      },
+      "3": {
+        "title": "Don d'accessoires de luxe",
+        "desc": "Les membres de l'Arcanis Boat Club seront tirés au sort afin de se voir offrir des accessoires de luxe tels que des montres Rolex (valeur 10k€), Dior, Chanel, Louis Vuitton, Hermès en lien avec les créations de bateaux !"
+      },
+      "4": {
+        "title": "Don d'œuvre spéciale",
+        "desc": "Des chefs-d'œuvre très spéciaux seront produits par Arcanist et vous pourrez le voir à l'œuvre sur Youtube. Et devinez quoi, ils seront offerts à un membre aléatoire du club !"
+      },
+      "5": {
+        "title": "Merchandising",
+        "desc": "Arcanis Boat Club ouvre son e-shop ! Venez découvrir en exclusivité des articles (vêtements, stickers, etc) spécialement réservée aux membres du Club !"
+      },
+      "6": {
+        "title": "NFTs physiques",
+        "desc": "Chaque NFT sortira en version physique au prix de 150$ achetable uniquement par les membres de l'Arcanis Boat Club. Chaque tableau sera accompagnée d'une puce nfc !"
+      },
+      "7": {
+        "title": "Don final",
+        "desc": "Un dernier cadeau de 100 000$ sera réservé à un membre aléatoire de l'Arcanis Boat Club ! Cela vaut la peine de terminer cette feuille de route, n'est-ce pas ?"
+      }
+    }
   }
 }
