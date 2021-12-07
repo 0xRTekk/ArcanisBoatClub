@@ -6,11 +6,14 @@ import { ReactComponent as Instagram } from "../../assets/icons/instagram.svg";
 import { ReactComponent as Logo } from "../../assets/icons/vandal_white.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useTranslation } from "react-i18next";
 
 const Navbar: React.FC = () => {
   useEffect(() => {
     AOS.init({});
   }, []);
+
+  const [t, i18n] = useTranslation("common");
 
   return (
     <div data-aos-duration="700" data-aos="fade-down" className="navbar">
@@ -27,6 +30,8 @@ const Navbar: React.FC = () => {
         <a href="">
           <Discord />
         </a>
+        <button onClick={() => i18n.changeLanguage("fr")}>fr</button>
+        <button onClick={() => i18n.changeLanguage("en")}>en</button>
         {/* <button className="connect-btn">Connect</button> */}
       </div>
     </div>
