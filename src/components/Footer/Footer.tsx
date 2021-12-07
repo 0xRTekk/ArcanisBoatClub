@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
           <a href="https://www.instagram.com/arcanis.design/">
             <Instagram />
           </a>
-          <a href="">
+          <a href="#">
             <Discord />
           </a>
         </div>
