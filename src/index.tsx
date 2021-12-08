@@ -5,19 +5,31 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";
+import LngDetector from "i18next-browser-languagedetector";
 import common_fr from "./translations/fr/common.json";
 import common_en from "./translations/en/common.json";
 
-i18next.init({
+i18next.use(LngDetector).init({
   interpolation: { escapeValue: false }, // React already does escaping
-  lng: "fr", // language to use
+  // lng: "en", // language to use
   resources: {
     fr: {
       common: common_fr, // 'common' is our custom namespace
     },
     en: {
       common: common_en, // 'common' is our custom namespace
-    }
+    },
+  },
+  detection: {
+    order: ["querystring", "cookie", "localStorage", "sessionStorage", "navigator", "htmlTag"],
+    lookupQuerystring: "lng",
+    lookupCookie: "i18next",
+    lookupLocalStorage: "i18nextLng",
+    lookupSessionStorage: "i18nextLng",
+
+    // cache user language
+    caches: ["localStorage"],
+    excludeCacheFor: ["cimode"],
   },
 });
 
