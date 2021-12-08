@@ -30,8 +30,8 @@ const Navbar: React.FC = () => {
         <a href="">
           <Discord />
         </a>
-        <button onClick={() => i18n.changeLanguage("fr")}>fr</button>
-        <button onClick={() => i18n.changeLanguage("en")}>en</button>
+        {/* <button onClick={() => i18n.changeLanguage("fr")}>fr</button>
+        <button onClick={() => i18n.changeLanguage("en")}>en</button> */}
         {/* <button className="connect-btn">Connect</button> */}
       </div>
     </div>

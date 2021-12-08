@@ -12,6 +12,7 @@ import common_en from "./translations/en/common.json";
 i18next.use(LngDetector).init({
   interpolation: { escapeValue: false }, // React already does escaping
   // lng: "en", // language to use
+  fallbackLng: "en",
   resources: {
     fr: {
       common: common_fr, // 'common' is our custom namespace
