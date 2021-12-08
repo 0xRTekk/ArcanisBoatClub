@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./team.css";
 import arcanis from "../../assets/images/9.png";
 import tekky from "../../assets/images/15.png";
-import darnom from "../../assets/images/17.png";
+import darnom from "../../assets/images/7.png";
 import Member from "./Member";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -25,16 +25,16 @@ const Team: React.FC = () => {
           fadeDuration="800"
         />
         <Member
-          memberName="Tekky"
-          memberRole={t("team.dev")}
-          memberImg={tekky}
+          memberName="Darnom"
+          memberRole={t("team.gallery")}
+          memberImg={darnom}
           fadeDirection="fade-down"
           fadeDuration="1500"
         />
         <Member
-          memberName="Darnom"
-          memberRole={t("team.gallery")}
-          memberImg={darnom}
+          memberName="Tekky"
+          memberRole={t("team.dev")}
+          memberImg={tekky}
           fadeDirection="fade-left"
           fadeDuration="800"
         />

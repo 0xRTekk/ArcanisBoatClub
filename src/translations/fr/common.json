@@ -8,7 +8,7 @@
   "presentation": {
     "title": "Arcanis Boat Club",
     "subtitle": "10 000 bateaux attendent leur capitaine",
-    "desc1": "L' Arcanis Boat Club prévoit de délivrer une série de 10 000 bateaux générés de manière unique naviguant sur la blockchain ethereum.",
+    "desc1": "L' Arcanis Boat Club prévoit de délivrer une série de 10 000 bateaux générés de manière aléatoire naviguant sur la blockchain ethereum.",
     "desc2": "Chaque NFT est unique et est basé sur l'art physique d'Arcanis Design.",
     "desc3": "Chaque pièce de bateau est physiquement utilisée sur une véritable œuvre d'art signée Arcanis Design !"
   },
@@ -33,11 +33,11 @@
       },
       "4": {
         "title": "Don d'œuvre spéciale",
-        "desc": "Des chefs-d'œuvre très spéciaux seront produits par Arcanist et vous pourrez le voir à l'œuvre sur Youtube. Et devinez quoi, ils seront offerts à un membre aléatoire du club !"
+        "desc": "A partir de ce palier l'intégralité des oeuvres d'Acranis seront offert à des membres aléatoires du club"
       },
       "5": {
         "title": "Merchandising",
-        "desc": "Arcanis Boat Club ouvre son e-shop ! Venez découvrir en exclusivité des articles (vêtements, stickers, etc) spécialement réservée aux membres du Club !"
+        "desc": "Arcanis Boat Club ouvre son e-shop ! Venez découvrir en exclusivité des articles (vêtements, stickers, etc) spécialement réservés aux membres du Club !"
       },
       "6": {
         "title": "NFTs physiques",

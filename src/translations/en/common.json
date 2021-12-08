@@ -1,0 +1,67 @@
+{
+  "timer": {
+    "day": "Days",
+    "hour": "Hours",
+    "min": "Mins",
+    "sec": "Secs"
+  },
+  "presentation": {
+    "title": "Arcanis Boat Club",
+    "subtitle": "10,000 boats waiting for their captain.",
+    "desc1": "The Arcanis Boat Club is a series of 10,000 uniquely generated boats sailing the etehreum blockchain.",
+    "desc2": "Each NFT is unique and is based on the physical artwork of Arcanis Design.",
+    "desc3": "Each boat's part are physically used on a real piece of art signed Arcanis Design !"
+  },
+  "slider": {
+    "title": "The collection"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "desc": "To thank you for inflating our sails, we have prepared a magnificent roadmap for you full of great surprises and gifts! With each percentage of sales reached, exclusive offers and gifts await you! Join this adventure and be part of the OTE movement: Own To Earn",
+    "step": {
+      "1": {
+        "title": "Physical artwork Giveaway",
+        "desc": "50 owners will be offered a physical work ! These works, real piece of art, will be the physical representation of one of the NFT possessed by the owner. You will have the chance to have an original work of art handmade representing your NFT !"
+      },
+      "2": {
+        "title": "Radio LoFi",
+        "desc": "The Arcanis Boat Club</strong> gets its own lofi radio on YouTube and twitch which broadcasts it 24 hours a day ! Come and enjoy the creative atmosphere of the Club and let yourself be inspired."
+      },
+      "3": {
+        "title": "Luxury accessories Giveaway",
+        "desc": "Members of the Arcanis Boat Club will be selected at random in order to be offered luxury accessories such as rolex (value 10 k), Dior, Chanel, Louis Vuitton, Hermes accessories in connection with the boat creations !"
+      },
+      "4": {
+        "title": "Youtube artwork Giveaway",
+        "desc": "From this level, all of Acranis' works will be offered to random members of the club"
+      },
+      "5": {
+        "title": "Merchandising",
+        "desc": "Arcanis Boat Club's e-shop openig ! Come and discover exclusively the line of merchandise specially reserved for the Arcanis Boat Club's members !"
+      },
+      "6": {
+        "title": "Physical NFTs",
+        "desc": "Each NFT will be released in a physical version at a price of 150$ purchasable only by the Arcanis Boat Club's members. Each drawing will be accompanied by an nfc chip !"
+      },
+      "7": {
+        "title": "Final Giveaway",
+        "desc": "A final 100,000$ giveaway will be reserved for a random member of the Arcanis Boat Club ! It's worth finishing this roadmap, isn't it ?"
+      }
+    }
+  },
+  "team": {
+    "title": "Meet the team",
+    "artist": "Artist",
+    "dev": "Devlopper",
+    "gallery": "Gallery owner"
+  },
+  "footer": {
+    "copyright": "©2021 Arcanis Boats Club. All rights reserved.",
+    "link": {
+      "shop": "Arcanis Design",
+      "opensea": "OpenSea",
+      "terms": "Terms & conditions",
+      "smartcontract": "Smart Contrat"
+    }
+  }
+}
