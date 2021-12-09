@@ -27,7 +27,12 @@
 }
 .footer-icons {
   display: flex;
+  flex-direction: column;
+}
+.footer-icons .row {
+  display: flex;
   flex-direction: row;
+  margin-bottom: 1em;
 }
 .footer-icons a {
   width: 44px;
@@ -80,6 +85,7 @@
     margin-bottom: 10px;
   }
   .footer-icons {
+    flex-direction: row;
     justify-content: space-evenly;
   }
 }
