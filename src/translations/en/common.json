@@ -7,10 +7,10 @@
   },
   "presentation": {
     "title": "Arcanis Boat Club",
-    "subtitle": "10,000 boats waiting for their captain.",
-    "desc1": "The Arcanis Boat Club is a series of 10,000 uniquely generated boats sailing the etehreum blockchain.",
-    "desc2": "Each NFT is unique and is based on the physical artwork of Arcanis Design.",
-    "desc3": "Each boat's part are physically used on a real piece of art signed Arcanis Design !"
+    "subtitle": "10,000 boats await their captain.",
+    "desc1": "The Arcanis Boat Club is Arcanis' first project based on generative art. Generative art is a practice using algorithms to autonomously generate a work. First, you create rules that set limits on the creation process. Then a computer follows these rules to produce new works.",
+    "desc2": "Arcanis plans to deliver a series of 10,000 unique boats sailing on the ethereum blockchain.",
+    "desc3": "Each NFT is unique and is based on the physical art of Arcanis Design !"
   },
   "slider": {
     "title": "The collection"
@@ -21,7 +21,7 @@
     "step": {
       "1": {
         "title": "Physical artwork Giveaway",
-        "desc": "50 owners will be offered a physical work ! These works, real piece of art, will be the physical representation of one of the NFT possessed by the owner. You will have the chance to have an original work of art handmade representing your NFT !"
+        "desc": "50 owners will be offered a physical work! These pieces, true generative works of art, will be the physical representation of one of the NFTs owned by the owner !"
       },
       "2": {
         "title": "Radio LoFi",
@@ -33,7 +33,7 @@
       },
       "4": {
         "title": "Youtube artwork Giveaway",
-        "desc": "From this level, all of Acranis' works will be offered to random members of the club"
+        "desc": "From this level all the works of the youtube channel will be offered to random members of the club"
       },
       "5": {
         "title": "Merchandising",
@@ -45,7 +45,7 @@
       },
       "7": {
         "title": "Final Giveaway",
-        "desc": "A final 100,000$ giveaway will be reserved for a random member of the Arcanis Boat Club ! It's worth finishing this roadmap, isn't it ?"
+        "desc": "A final gift of $ 100,000 will be reserved for a random member of the Arcanis Boat Club! It's worth finishing this roadmap, isn't it?"
       }
     }
   },
@@ -56,7 +56,7 @@
     "gallery": "Gallery owner"
   },
   "footer": {
-    "copyright": "©2021 Arcanis Boats Club. All rights reserved.",
+    "copyright": "©2021 Arcanis Boat Club. All rights reserved.",
     "link": {
       "shop": "Arcanis Design",
       "opensea": "OpenSea",

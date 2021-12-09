@@ -7,10 +7,10 @@
   },
   "presentation": {
     "title": "Arcanis Boat Club",
-    "subtitle": "10 000 bateaux attendent leur capitaine",
-    "desc1": "L' Arcanis Boat Club prévoit de délivrer une série de 10 000 bateaux générés de manière aléatoire naviguant sur la blockchain ethereum.",
-    "desc2": "Chaque NFT est unique et est basé sur l'art physique d'Arcanis Design.",
-    "desc3": "Chaque pièce de bateau est physiquement utilisée sur une véritable œuvre d'art signée Arcanis Design !"
+    "subtitle": "10 000 bateaux attendent leur capitaine.",
+    "desc1": "L'Arcanis Boat Club est le premier projet d'Arcanis basé sur l'art génératif. L'art génératif est une pratique utilisant les algorithmes pour générer de manière autonome une oeuvre. Tout d'abord, vous créez des règles qui fixent des limites au processus de création. Ensuite, un ordinateur suit ces règles pour produire de nouvelles œuvres.",
+    "desc2": "Arcanis prévoit de délivrer une série de 10 000 bateaux uniques naviguant sur la blockchain ethereum.",
+    "desc3": "Chaque NFT est unique et est basé sur l'art physique d'Arcanis Design."
   },
   "slider": {
     "title": "La collection"
@@ -21,7 +21,7 @@
     "step": {
       "1": {
         "title": "Don d'œuvres physiques",
-        "desc": "50 propriétaires se verront offrir une œuvre physique ! Ces pièces, véritables oeuvres d'art faites main, seront la représentation physique d'un des NFT possédé par le propriétaire !"
+        "desc": "50 propriétaires se verront offrir une œuvre physique ! Ces pièces, véritables oeuvres d'art generatives, seront la représentation physique d'un des NFT possédé par le propriétaire !"
       },
       "2": {
         "title": "Station radio LoFi",
@@ -33,7 +33,7 @@
       },
       "4": {
         "title": "Don d'œuvre spéciale",
-        "desc": "A partir de ce palier l'intégralité des oeuvres d'Acranis seront offert à des membres aléatoires du club"
+        "desc": "A partir de ce palier l'intégralité des oeuvres de la chaine youtube seront offert à des membres aléatoires du club"
       },
       "5": {
         "title": "Merchandising",
@@ -45,7 +45,7 @@
       },
       "7": {
         "title": "Don final",
-        "desc": "Un dernier cadeau de 100 000$ sera réservé à un membre aléatoire de l'Arcanis Boat Club ! Cela vaut la peine de terminer cette feuille de route, n'est-ce pas ?"
+        "desc": "Un dernier cadeau de 100 000$ sera réservé à un membre aléatoire du Arcanis Boat Club ! Cela vaut la peine de terminer cette feuille de route, n'est-ce pas ?"
       }
     }
   },
@@ -56,7 +56,7 @@
     "gallery": "Galleriste"
   },
   "footer": {
-    "copyright": "©2021 Arcanis Boats Club. Tous droits résérvés.",
+    "copyright": "©2021 Arcanis Boat Club. Tous droits résérvés.",
     "link": {
       "shop": "Arcanis Design",
       "opensea": "Collection OpenSea",

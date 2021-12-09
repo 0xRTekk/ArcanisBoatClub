@@ -82,6 +82,11 @@
   }
 }
 @media screen and (max-width: 500px) {
+  .banner {
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
   .timer-cont {
     width: 60%;
     top: 60%;

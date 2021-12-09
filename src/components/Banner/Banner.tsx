@@ -1,8 +1,7 @@
 import React from "react";
 import "./banner.css";
-import mask from "../../assets/images/hero.jpg";
 import Timer from "../Timer/Timer";
-import Mint from "../Mint/Mint";
+// import Mint from "../Mint/Mint";
 const Banner: React.FC = () => {
   return (
     <div>

@@ -7,11 +7,6 @@ body {
   overflow-x: hidden !important;
 }
 
-h1,
-h2 {
-  font-family: 'Oleo Script', cursive;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
