@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../assets//styles/Home.module.css'
+import Navbar from '../components/Navbar/Navbar.tsx'
 
 const schemaData = 
 {
@@ -54,6 +55,10 @@ export default function Home() {
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       </Head>
+
+      <header>
+        
+      </header>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
