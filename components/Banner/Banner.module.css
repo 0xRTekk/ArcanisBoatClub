@@ -1,0 +1,19 @@
+.banner {
+  background-color: wheat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.intro {
+  width: 50%;
+}
+
+.picture {
+  width: 50%;
+}
+
+.cta {
+  background-color: blue;
+  color: aliceblue;
+}
