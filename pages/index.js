@@ -1,7 +1,9 @@
 import Head from 'next/head'
-import Layout, { siteTitle, siteDescription } from '../components/Layout/layout.js'
+import Layout, { siteTitle } from '../components/Layout/layout.js'
 import Banner from '../components/Banner/banner'
 import SliderComponent from '../components/SliderComponent/sliderComponent'
+import Artist from '../components/Artist/artist'
+import Marina from '../components/Marina/marina'
 import styles from '../public/assets/styles/Home.module.css'
 import utilStyles from '../public/assets/styles/utils.module.css'
 
@@ -26,6 +28,10 @@ export default function Home() {
       <Banner />
 
       <SliderComponent />
+
+      <Artist />
+
+      <Marina />
 
     </Layout>
   )

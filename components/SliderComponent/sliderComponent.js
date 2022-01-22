@@ -1,5 +1,4 @@
 import React from "react";
-import Carousel from 'nuka-carousel';
 import Slider from "react-slick";
 import Image from 'next/image'
 // import "./SliderComponent.module.css";
@@ -79,18 +78,15 @@ export default function SliderComponent() {
         Vous naviguez dans un tout nouvel univers concocté par le Commandant Arcanis et une multitude d’avantages s’offrent à vous. <br />
         Plus qu’un simple club, en devenant capitaine de votre bateau vous faites partie d’une véritable communauté. 
       </p>
-      {/* <Carousel>
-        <Image src={boat_01} width="150px" height="150px" />
-        <Image src={boat_02} width="150px" height="150px" />
-        <Image src={boat_03} width="150px" height="150px" />
-        <Image src={boat_04} width="150px" height="150px" />
-        <Image src={boat_05} width="150px" height="150px" />
-        <Image src={boat_06} width="150px" height="150px" />
-      </Carousel> */}
       <Slider className="slider-component" {...settings}>
         {data1?.map((item, index) => (
           <div className="each-slide" key={index}>
-            <Image src={item} placeholder="blur" alt="Boat NFT" />
+            <Image 
+              src={item}
+              placeholder="blur"
+              layout='responsive'
+              alt="Boat NFT"
+            />
           </div>
         ))}
       </Slider>

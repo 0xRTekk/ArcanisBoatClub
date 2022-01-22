@@ -56,12 +56,12 @@
   margin-top: -90px;
 } */
 
-.team-list {
+.teamlist {
   display: flex;
   justify-content: space-between;
 }
 
-.team-member {
+.teammember {
   display: flex;
   color: white;
   min-height: 34vh;
