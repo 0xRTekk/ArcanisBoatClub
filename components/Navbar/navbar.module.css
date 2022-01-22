@@ -1,17 +1,90 @@
 .navbar {
+  position: relative;
   display: flex;
   align-items: center;
   width: 100%;
-  justify-content: space-between;
-  padding: 0 60px;
+  justify-content: space-evenly;
   box-sizing: border-box;
   margin: 0 auto;
+}
+
+.logo {
+  width: 30%;
+}
+
+.navigation {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #272727;
+    padding: 1em 0;
+}
+
+.navigation ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
 }
 
 .navigation li {
     list-style: none;
     display: inline-block;
-    margin-right: 2em;
-    font-size: 1.5em;
     color: white;
+    width: 45%;
+    margin: 0.5em 0;
+}
+
+.navigation a {
+    display: block;
+    width: 100%;
+    padding: 1em 0.7em;
+    background-color: #00396C;
+    border-radius: 4px;
+}
+
+.navigation a span {
+  display: block;
+  font-size: 0.7em;
+  color: grey;
+}
+
+.actions {
+  display: none;
+}
+
+@media screen  and (min-width: 768px) {
+  .logo {
+    width: unset;
+  }
+
+  .navigation {
+    position:unset;
+    z-index: 0;
+    background-color: unset;
+    padding: 0;
+  }
+
+  .navigation ul {
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+  }
+
+  .navigation li {
+    width: unset;
+    margin: 0 0.3em;
+  }
+
+  .navigation a {
+    padding: 1.2em;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .navigation li {
+    margin: 0 1em;
+  }
 }
