@@ -1,7 +1,6 @@
-import React from "react";
 import Slider from "react-slick";
 import Image from 'next/image'
-// import "./SliderComponent.module.css";
+import styles from "./SliderComponent.module.css";
 import boat_02 from "../../public/assets/images/2.png";
 import boat_01 from "../../public/assets/images/1.png";
 import boat_03 from "../../public/assets/images/3.png";
@@ -70,21 +69,22 @@ export default function SliderComponent() {
     <div
       data-aos="fade-down"
       data-aos-duration="1000"
-      className="slider-container"
+      className={styles.slider_container}
     >
       <h2>La flotte</h2>
       <p>
-        En achetant un NFT vous devenez membre du Arcanis Boat Club (A.B.C.). <br />
-        Vous naviguez dans un tout nouvel univers concocté par le Commandant Arcanis et une multitude d’avantages s’offrent à vous. <br />
-        Plus qu’un simple club, en devenant capitaine de votre bateau vous faites partie d’une véritable communauté. 
+        En <em>achetant un NFT</em> vous devenez <strong>membre du Arcanis Boat Club (A.B.C.)</strong>. <br />
+        Vous naviguez dans un tout nouvel univers concocté par le Commandant Arcanis et une <strong>multitude d’avantages</strong> s’offrent à vous. <br />
+        <strong>Plus qu’un simple club</strong>, en devenant capitaine de votre bateau vous faites partie d’<strong>une véritable communauté</strong>. 
       </p>
-      <Slider className="slider-component" {...settings}>
+      <Slider className={styles.slider_component} {...settings}>
         {data1?.map((item, index) => (
-          <div className="each-slide" key={index}>
-            <Image 
+          <div className={styles.each_slide} key={index}>
+            <Image
+              className={styles.picture}
               src={item}
               placeholder="blur"
-              layout='responsive'
+              // layout='responsive'
               alt="Boat NFT"
             />
           </div>
