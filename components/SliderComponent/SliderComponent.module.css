@@ -36,7 +36,8 @@
 }
 
 .picture {
-  margin: 15px !important;
+  transform: scale(.9);
+  border-radius: 4px;
 }
 
 @media screen  and (min-width: 1024px) {
@@ -48,6 +49,10 @@
 }
 
 @media screen  and (min-width: 1440px) {
+  .slider_container h2 {
+    font-size: 3.5em;
+  }
+
   .slider_container p {
     font-size: 1.3em;
   }

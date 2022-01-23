@@ -1,29 +1,32 @@
 import Image from 'next/image'
+import Cta from '../Cta/cta'
 import styles from './Artist.module.css'
-import arcanis_pic from '../../public/assets/images/arcanis_pic.webp'
+import arcanis_pic from '../../public/assets/images/arcanis_pic_small.png'
 
 export default function Artist() {
   return (
     <div className={styles.artist}>
-      <h2>L'artiste - Arcanis</h2>
+      <h2>Arcanis</h2>
       <div className={styles.about}>
         <div className={styles.bio}>
-          <p>Au départ, Arcanis n’était pas voué à une carrière dans l’art, et pourtant …</p>
-          <p>
-            En combinant ses compétences en métallurgie et son ingéniosité, Arcanis trouve sa propre voie et développe son art. Il se lance dans la sculpture, le premier pas vers son positionnement d’artiste. <br />
-            C’est un des premiers français à ramener le style Low Poly Papercraft et à le retranscrire sur du métal : sa marque de fabrique est née.
+          <p>Au départ, <strong>Arcanis</strong> n’était pas voué à une carrière dans l’art, et pourtant …</p>
+            <p>
+              Véritable produit des années 90, Arcanis retranscrit tout son héritage culturel, son histoire, et sa technique via son concept <strong>« Le Bateau »</strong>.
             </p>
             <p>
-            Véritable produit des années 90, Arcanis retranscrit tout son héritage culturel, son histoire, et sa technique via son concept « Le Bateau ».
+              Arcanis étend la vision de son art en nous proposant une <strong>collection de NFTs basée sur le concept de ses oeuvres physiques</strong>.
             </p>
-            <p>
-            Arcanis étend la vision de son art en nous proposant une collection de NFTs basée sur le concept du « Bateau ».
-            </p>
-            <button>Rencontrez le capitaine</button>
+            <Cta 
+              title="Rencontrez le commandant"
+              link="/artist"
+              className={styles.cta}
+            />
         </div>
         <div className={styles.picture}>
           <Image 
             src={arcanis_pic}
+            layout="responsive"
+            alt="Photo de l'artiste Arcanis"
           />
         </div>
       </div>

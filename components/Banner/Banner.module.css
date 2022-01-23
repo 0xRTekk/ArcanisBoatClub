@@ -52,6 +52,10 @@
   margin-bottom: 1.5em;
 }
 
+.picture img {
+  border-radius: 4px;
+}
+
 .cta {
   background-color: #00396C;
   color: #fff;
@@ -98,6 +102,10 @@
 }
 
 @media screen  and (min-width: 1440px) {
+  .intro_heading h1 {
+    font-size: 3.5em;  
+  }
+
   .intro_text {
     width: 60%;
     font-size: 1.3em;

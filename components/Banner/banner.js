@@ -29,7 +29,7 @@ export default function Banner() {
           Bientôt, de véritables bijoux numériques seront à votre disposition… Lequel aurez-vous la chance de posséder ?
         </p>
         <Cta 
-          title='Mint'
+          title='Mint à venir'
           link='https://opensea.io/collection/arcanisboatclub'
         />
       </div>
