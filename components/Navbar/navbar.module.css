@@ -91,3 +91,9 @@
     margin: 0 1em;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .navigation a {
+    font-size: 1.2em;
+  }
+}

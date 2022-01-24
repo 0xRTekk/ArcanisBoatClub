@@ -61,6 +61,10 @@
 }
 
 @media screen  and (min-width: 1024px) {
+  .artist {
+    padding-bottom: 2em;
+  }
+  
   .bio {
     display: flex;
     flex-direction: column;
