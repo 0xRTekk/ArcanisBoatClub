@@ -1,0 +1,20 @@
+.social_cta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    background-color: #244479;
+}
+
+.social_cta p {
+  text-shadow: 2px 4px 10px #7E95D1;
+}
+
+@media screen and (min-width: 768px) {
+  .social_cta p {
+    font-size: 1rem;
+    font-weight: 800;
+    text-shadow: -1px 2px 15px #7e95d1;
+  }
+}

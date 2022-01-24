@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Cta from '../Cta/cta'
 import styles from './Artist.module.css'
 import arcanis_pic from '../../public/assets/images/arcanis_pic_small.png'
+import Link from 'next/link'
 
 export default function Artist() {
   return (
@@ -16,11 +17,13 @@ export default function Artist() {
             <p>
               Arcanis étend la vision de son art en nous proposant une <strong>collection de NFTs basée sur le concept de ses oeuvres physiques</strong>.
             </p>
-            <Cta 
+            <Link href="/artist" passHref>
+            <Cta
               title="Rencontrez le commandant"
-              link="/artist"
               className={styles.cta}
             />
+            </Link>
+            
         </div>
         <div className={styles.picture}>
           <Image 

@@ -1,11 +1,11 @@
 import Link from 'next/link'
 import styles from './Cta.module.css'
 
-export default function Cta({ title, link }) {
+export default function Cta({ title, href }) {
   return (
     <div>
       <button className={styles.cssbuttons_iobutton}>
-      <Link href='/mint'>
+        <Link href={href}>
         <a>{title}</a>
       </Link>
         <div className={styles.icon}>

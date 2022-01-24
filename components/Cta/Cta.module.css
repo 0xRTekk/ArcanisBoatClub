@@ -4,8 +4,6 @@
  color: #cecece;
  font-family: inherit;
  margin: 0 auto;
- padding: 0.35em;
- padding-left: 1.2em;
  font-size: 17px;
  font-weight: 500;
  border-radius: 4px;
@@ -18,6 +16,11 @@
  position: relative;
  height: 2.8em;
  padding-right: 3.3em;
+}
+
+.cssbuttons_iobutton a {
+  padding: 0.35em;
+  padding-left: 1.2em;
 }
 
 .cssbuttons_iobutton .icon {

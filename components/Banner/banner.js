@@ -2,6 +2,7 @@ import Cta from '../Cta/cta'
 import styles from "./Banner.module.css"
 import bannerPicture from '../../public/assets/images/9.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Banner() {
   return(
@@ -28,10 +29,11 @@ export default function Banner() {
           Ces NFTs s’inspirent de <strong>l’art physique déjà reconnu d’Arcanis</strong>. <br />
           Bientôt, de véritables bijoux numériques seront à votre disposition… Lequel aurez-vous la chance de posséder ?
         </p>
-        <Cta 
-          title='Mint à venir'
-          link='https://opensea.io/collection/arcanisboatclub'
-        />
+        <Link href="https://opensea.io/collection/arcanisboatclub/" passHref>
+          <Cta
+            title='Mint à venir'
+          />
+        </Link>
       </div>
 
         <div className={styles.picture}>
