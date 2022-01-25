@@ -12,10 +12,10 @@ export default function Roadmap() {
             </p>
             <div data-aos-duration="700" data-aos="fade-left" style={{ display: "flex", alignItems: "center" }}>
               <span>00%</span>
-              <h2>L'Arcanis Boat Club</h2>
+              <h2>L&#39;Arcanis Boat Club</h2>
             </div>
             <p data-aos-duration="1000" data-aos="fade-left">
-              Votre pseudo sera rajouter sur l'oeuvre d'art final qui representera le ArcanisBoatClub qui fera l'oeuvre d'une grande video en plusieur partie sur youtube
+              Votre pseudo sera rajouter sur l&#39;oeuvre d&#39;art final qui representera le ArcanisBoatClub qui fera l&#39;oeuvre d&#39;une grande video en plusieur partie sur youtube
             </p>
           </div>
           <div>

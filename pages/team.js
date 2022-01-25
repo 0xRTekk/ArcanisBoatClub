@@ -14,12 +14,12 @@ export default function Team() {
   return (
     <Layout team>
       <div className={styles.wrapper}>
-        <h1>Rencontrez l'équipage</h1>
+        <h1>Rencontrez l&#39;équipage</h1>
         <div className={styles.team}>
           <TeamComponent />
         </div>
         <div className={styles.actions}>
-          <h2>Retrouvez les oeuvres d'Arcanis sur ses différentes plateformes</h2>
+          <h2>Retrouvez les oeuvres d&#39;Arcanis sur ses différentes plateformes</h2>
           <div className={styles.row, styles.socials}>
             <div>Discord</div>
             <div>Youtube</div>
@@ -31,11 +31,11 @@ export default function Team() {
           <div className={styles.links}>
             <div>
               <Link href="/team">
-                <a>Rencontrez l'équipage</a>
+                <a>Rencontrez l&#39;équipage</a>
               </Link>
             </div>
             <div>
-              <a href='https://www.arcanis.design/' target="_blank">Oeuvres physiques</a>
+              <a href='https://www.arcanis.design/' target="_blank" rel="noreferrer">Oeuvres physiques</a>
             </div>
           </div>
         </div>
