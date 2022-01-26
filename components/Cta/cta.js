@@ -3,7 +3,7 @@ import styles from './Cta.module.css'
 
 export default function Cta({ title, href }) {
   return (
-    <div>
+    <div data-aos-delay="1000">
       <button className={styles.cssbuttons_iobutton}>
         <Link href={href}>
         <a>

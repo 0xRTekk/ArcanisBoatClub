@@ -14,29 +14,32 @@ export default function Team() {
           memberName="Arcanis"
           memberRole="Artiste"
           memberImg={arcanis}
-          fadeDirection="fade-right"
-          fadeDuration="800"
+          fadeDirection="fade-down"
+          fadeDuration="1000"
         />
         <Member
           memberName="Darnom"
           memberRole="Galleriste"
           memberImg={darnom}
           fadeDirection="fade-down"
-          fadeDuration="1500"
+          fadeDuration="1000"
+          fadeDelay="500"
         />
         <Member
           memberName="Tekky"
           memberRole="Developpeur"
           memberImg={tekky}
-          fadeDirection="fade-left"
-          fadeDuration="800"
+          fadeDirection="fade-down"
+          fadeDuration="1000"
+          fadeDelay="1000"
         />
         <Member
           memberName="Zozore"
           memberRole="Copyrighteuse"
           memberImg={zozore}
-          fadeDirection="fade-left"
-          fadeDuration="800"
+          fadeDirection="fade-down"
+          fadeDuration="1000"
+          fadeDelay="1500"
         />
       </div>
     </div>

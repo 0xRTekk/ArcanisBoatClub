@@ -17,7 +17,11 @@ const meta = {
 export default function Artist() {
   return(
     <Layout artist>
-      <div className={styles.wrapper}>
+      <div 
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        className={styles.wrapper}
+      >
         <h1>Commandant Arcanis</h1>
         <p>
           Au départ, <strong>Arcanis</strong> n’était pas voué à une carrière dans l’art, et pourtant …
@@ -25,7 +29,11 @@ export default function Artist() {
         <div className={styles.artist}>
           <div className={styles.bio}>
 
-            <div className={styles.row}>
+            <div 
+              data-aos="fade-down"
+              data-aos-duration="1000"
+              className={styles.row}
+            >
               <div className={styles.picture}>
                 <Image
                   src={arcanis_pic}
@@ -44,7 +52,11 @@ export default function Artist() {
               </div>
             </div>
 
-            <div className={styles.row}>
+            <div 
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              className={styles.row}
+            >
               <div className={styles.picture}>
                 <Image
                   src={picsou_boat}
@@ -59,7 +71,11 @@ export default function Artist() {
               </p>
             </div>
 
-            <div className={styles.row}>
+            <div 
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              className={styles.row}
+              >
               <div className={styles.picture}>
                 <Image
                   src={hermes_boat}

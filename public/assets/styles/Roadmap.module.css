@@ -1,0 +1,45 @@
+.wrapper {
+  color: #cecece;
+}
+
+.wrapper h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  padding: .5em 0;
+  margin: 0;
+  font-weight: 800;
+  background: linear-gradient(90deg, #C15900, #C13A5C);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.roadmap {
+  padding: 1em;
+}
+
+.actions {
+  padding: 1.5em;
+  text-align: center;
+  background-color: #1c1b1b;
+  color: #cecece;
+}
+
+.actions h2 {
+  margin-bottom: 2em;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+  .actions {
+    padding: 3em;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+}

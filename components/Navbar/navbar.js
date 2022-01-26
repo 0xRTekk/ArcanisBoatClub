@@ -4,7 +4,7 @@ import styles from "./navbar.module.css";
 
 export default function Navbar() {
   return (
-    <div data-aos-duration="700" data-aos="fade-down" className={styles.navbar}>
+    <div data-aos-duration="500" data-aos="fade-down" className={styles.navbar}>
       <div className={styles.logo}>
         <Image 
           src="/assets/images/logo.png"

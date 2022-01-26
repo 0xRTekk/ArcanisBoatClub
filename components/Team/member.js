@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import styles from './Team.module.css'
 
-export default function Member({memberImg, memberName, memberRole, fadeDirection, fadeDuration}) {
+export default function Member({ memberImg, memberName, memberRole, fadeDirection, fadeDuration, fadeDelay}) {
   return (
     <div className={styles.teammemeber}>
-      <div data-aos-duration={fadeDuration} data-aos={fadeDirection} className={styles.memberclone}>
+      <div data-aos-duration={fadeDuration} data-aos={fadeDirection} data-aos-delay={fadeDelay} className={styles.memberclone}>
         <div className={styles.memberdetails}>
           <h3>
             {memberName}

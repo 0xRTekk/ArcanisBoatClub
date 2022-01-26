@@ -6,7 +6,11 @@ import Link from 'next/link'
 
 export default function Artist() {
   return (
-    <div className={styles.artist}>
+    <div 
+      data-aos="fade-down"
+      data-aos-duration="1000"
+      date-aos-delay="1000"
+      className={styles.artist}>
       <h2>Arcanis</h2>
       <div className={styles.about}>
         <div className={styles.bio}>

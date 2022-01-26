@@ -6,7 +6,10 @@ import styles from './Marina.module.css'
 
 export default function Marina() {
   return (
-    <div className={styles.marina}>
+    <div 
+      data-aos="fade-down"
+      data-aos-duration="1000"
+      className={styles.marina}>
       <div className={styles.manifesto}>
         <h2>La marina</h2>
         <p>

@@ -12,7 +12,11 @@ const meta = {
 export default function Team() {
   return (
     <Layout team>
-      <div className={styles.wrapper}>
+      <div 
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        className={styles.wrapper}
+      >
         <h1>Rencontrez l&#39;équipage</h1>
         <div className={styles.team}>
           <TeamComponent />

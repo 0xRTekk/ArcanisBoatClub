@@ -15,7 +15,7 @@ import boat_09 from "../../public/assets/images/9.png";
 export default function SliderComponent() {
   const settings = {
     autoplay: true,
-    atoplaySpeed: 2000,
+    atoplaySpeed: 1000,
     centerMode: true,
     infinite: true,
     dots: true,

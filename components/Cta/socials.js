@@ -11,7 +11,11 @@ import tiktok from "../../public/assets/images/tiktok.svg";
 
 export default function Socials() {
   return(
-    <div className={styles.row, styles.socials}>
+    <div 
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      className={styles.row, styles.socials}
+    >
       <Link href="https://discord.gg/zmB9CHc2pp" passHref>
         <SocialCta
           title="Discord"

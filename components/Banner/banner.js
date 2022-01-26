@@ -6,7 +6,10 @@ import Link from 'next/link'
 
 export default function Banner() {
   return(
-    <div className={styles.banner}>
+    <div 
+      data-aos="fade-down"
+      data-aos-duration="1000"
+      className={styles.banner}>
 
       <div className={styles.intro_heading}>
         <h1>ARCANIS BOAT CLUB <span>10 000 bateaux attendant leur capitaine.</span></h1>
