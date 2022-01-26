@@ -8,10 +8,12 @@ export default function Member({memberImg, memberName, memberRole, fadeDirection
         <div className={styles.memberdetails}>
           <h3>
             {memberName}
-            <span> / {memberRole}</span>
+            <span>{memberRole}</span>
           </h3>
         </div>
-        <Image src={memberImg} alt="" />
+        <div className={styles.picture}>
+          <Image src={memberImg} alt={"NFt de " + memberName} />
+        </div>
       </div>
     </div>
   );

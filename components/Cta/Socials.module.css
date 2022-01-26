@@ -1,0 +1,22 @@
+.socials {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.socials > * {
+  width: calc(50% - 10px);
+  margin-bottom: 1.5em;
+}
+
+@media screen and (min-width: 768px){
+  .socials {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .socials > * {
+    width: calc(33% - 10px);
+  }
+}

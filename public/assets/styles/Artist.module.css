@@ -1,0 +1,137 @@
+.wrapper {
+  padding: 1em;
+}
+
+.wrapper h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  padding: .5em 0;
+  margin: 0;
+  font-weight: 800;
+  background: linear-gradient(90deg, #C15900, #C13A5C);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wrapper p {
+  font-size: 0.9em;
+  color: #cecece;
+  padding: 0.3em 1em;
+  letter-spacing: 0.3px;
+  line-height: 1.5;
+}
+
+.wrapper strong {
+  font-size: 1.1em;
+  /* color: #395C93; */
+  background: linear-gradient(104deg,rgba(255,130,130,0) .9%,rgb(0, 57, 108) 2.4%,rgba(57, 92, 147, .8) 5.8%,rgba(140, 170, 231, .1) 93%,rgba(0, 57, 108, .7) 96%),linear-gradient(183deg,rgba(130,255,173,0),rgba(0, 48, 98, .3) 7.9%,rgba(255,130,130,0) 15%);
+  text-shadow: -6px 10px 9.8px rgba(57, 92, 147, .7);
+  padding: 0.1em 0.2em;
+  border-radius: 6px;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+}
+
+.picture img {
+  border-radius: 4px;
+}
+
+.actions {
+  padding: 1.5em;
+  text-align: center;
+  background-color: #1c1b1b;
+  color: #cecece;
+}
+
+.actions h2 {
+  margin-bottom: 2em;
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper p {
+    font-size: 1em;
+    letter-spacing: .5px;
+    line-height: 1.6;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 3.5em;
+  }
+
+  .row .picture {
+    width: 30%;
+  }
+
+  .row .col {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    justify-content: space-around;
+  }
+
+  .row:nth-child(2) {
+    flex-direction: row-reverse;
+  }
+
+  .row:nth-child(2) p {
+    width: 50%;
+    margin-right: 2em;
+  }
+
+  .row:nth-child(3) {
+    flex-direction: column-reverse;
+    padding: 0 3em;
+  }
+
+  .row:nth-child(3) .picture {
+    width: 100%;
+  }
+
+  .actions {
+    padding: 3em;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .wrapper > p {
+    text-align: center;
+  }
+
+  .wrapper p {
+    font-size: 1.3em;
+    letter-spacing: .7px;
+    line-height: 1.8;
+  }
+
+  .row:first-child {
+    align-items: center;
+  }
+
+  .row:first-child .picture {
+    width: 350px;
+    height: 700px;
+  }
+
+  .row:nth-child(3) {
+    flex-direction: row;
+    padding: 0 3em;
+  }
+
+  .row:nth-child(3) .picture {
+    width: 30%;
+  }
+
+  .row:nth-child(3) p {
+    width: 50%;
+    padding-left: 2em;
+  }
+}

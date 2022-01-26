@@ -12,7 +12,7 @@ export default function Team() {
       <div className={styles.teamlist}>
         <Member
           memberName="Arcanis"
-          memberRole="Artist"
+          memberRole="Artiste"
           memberImg={arcanis}
           fadeDirection="fade-right"
           fadeDuration="800"

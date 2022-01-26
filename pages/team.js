@@ -1,7 +1,6 @@
 import Layout from '../components/Layout/layout.js'
 import TeamComponent from '../components/Team/team.js'
-import Image from 'next/image'
-import Link from 'next/link'
+import Socials from '../components/Cta/socials'
 
 import styles from '../public/assets/styles/Team.module.css'
 
@@ -20,24 +19,7 @@ export default function Team() {
         </div>
         <div className={styles.actions}>
           <h2>Retrouvez les oeuvres d&#39;Arcanis sur ses différentes plateformes</h2>
-          <div className={styles.row, styles.socials}>
-            <div>Discord</div>
-            <div>Youtube</div>
-            <div>Tik Tok</div>
-            <div>Instagram</div>
-            <div>Twitter</div>
-            <div>Facebook</div>
-          </div>
-          <div className={styles.links}>
-            <div>
-              <Link href="/team">
-                <a>Rencontrez l&#39;équipage</a>
-              </Link>
-            </div>
-            <div>
-              <a href='https://www.arcanis.design/' target="_blank" rel="noreferrer">Oeuvres physiques</a>
-            </div>
-          </div>
+          <Socials />
         </div>
       </div>
     </Layout>
