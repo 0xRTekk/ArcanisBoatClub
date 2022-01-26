@@ -10,7 +10,7 @@ export default function Marina() {
       data-aos="fade-down"
       data-aos-duration="1000"
       className={styles.marina}>
-      <div className={styles.manifesto}>
+      <section className={styles.manifesto}>
         <h2>La marina</h2>
         <p>
           <strong>« Le Bateau »</strong> est un concept créé par Arcanis.
@@ -22,11 +22,11 @@ export default function Marina() {
           Il vous invite à bord, embarquez dès maintenant ! Personne ne doit rester à quai … <br />
           Rejoignez la flotte de <strong>l’Arcanis Boat Club</strong>.
         </p>
-      </div>
+      </section>
 
       <Socials />
 
-      <div className={styles.manifesto}>
+      <section className={styles.manifesto}>
         <p>
           Au sein de la communauté de l’A.B.C. vous retrouvez :
         </p>
@@ -42,7 +42,7 @@ export default function Marina() {
             title="Les oeuvres Arcanis Design"
           />
         </Link>
-      </div>
+      </section>
     </div>
   )
 }

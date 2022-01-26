@@ -11,7 +11,7 @@ import tiktok from "../../public/assets/images/tiktok.svg";
 
 export default function Socials() {
   return(
-    <div 
+    <section 
       data-aos="fade-up"
       data-aos-duration="1000"
       className={styles.row, styles.socials}
@@ -52,6 +52,6 @@ export default function Socials() {
           image={facebook}
         />
       </Link>
-    </div>
+    </section>
   )
 }

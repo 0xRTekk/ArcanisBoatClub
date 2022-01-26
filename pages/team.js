@@ -18,13 +18,13 @@ export default function Team() {
         className={styles.wrapper}
       >
         <h1>Rencontrez l&#39;équipage</h1>
-        <div className={styles.team}>
+        <section className={styles.team}>
           <TeamComponent />
-        </div>
-        <div className={styles.actions}>
+        </section>
+        <section className={styles.actions}>
           <h2>Retrouvez les oeuvres d&#39;Arcanis sur ses différentes plateformes</h2>
           <Socials />
-        </div>
+        </section>
       </div>
     </Layout>
   )

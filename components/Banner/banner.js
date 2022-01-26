@@ -11,12 +11,11 @@ export default function Banner() {
       data-aos-duration="1000"
       className={styles.banner}>
 
-      <div className={styles.intro_heading}>
+      <header className={styles.intro_heading}>
         <h1>ARCANIS BOAT CLUB <span>10 000 bateaux attendant leur capitaine.</span></h1>
+      </header>
 
-      </div>
-
-      <div className={styles.intro_text}>
+      <section className={styles.intro_text}>
         <p>
           <strong>Bienvenue à l’Arcanis Boat Club !</strong> <br />
           Ici vous allez découvrir les premières <strong>œuvres d’art génératif d’Arcanis</strong>. <br />
@@ -37,7 +36,7 @@ export default function Banner() {
             title='Mint à venir'
           />
         </Link>
-      </div>
+      </section>
 
         <div className={styles.picture}>
           <Image 

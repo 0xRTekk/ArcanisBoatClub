@@ -66,7 +66,7 @@ export default function SliderComponent() {
   ];
 
   return (
-    <div
+    <section
       data-aos="fade-down"
       data-aos-duration="1000"
       className={styles.slider_container}
@@ -90,6 +90,6 @@ export default function SliderComponent() {
           </div>
         ))}
       </Slider>
-    </div>
+    </section>
   );
 }

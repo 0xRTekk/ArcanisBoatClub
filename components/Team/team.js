@@ -9,7 +9,7 @@ import zozore from "../../public/assets/images/6.png";
 export default function Team() {
   return (
     <div className={styles.team} data-aos="fade-down" data-aos-duration="1200">
-      <div className={styles.teamlist}>
+      <section className={styles.teamlist}>
         <Member
           memberName="Arcanis"
           memberRole="Artiste"
@@ -41,7 +41,7 @@ export default function Team() {
           fadeDuration="1000"
           fadeDelay="1500"
         />
-      </div>
+      </section>
     </div>
   );
 }

@@ -17,7 +17,7 @@ const meta = {
 export default function Artist() {
   return(
     <Layout artist>
-      <div 
+      <section 
         data-aos="fade-down"
         data-aos-duration="1000"
         className={styles.wrapper}
@@ -26,10 +26,10 @@ export default function Artist() {
         <p>
           Au départ, <strong>Arcanis</strong> n’était pas voué à une carrière dans l’art, et pourtant …
         </p>
-        <div className={styles.artist}>
-          <div className={styles.bio}>
+        <section className={styles.artist}>
+          <section className={styles.bio}>
 
-            <div 
+            <article 
               data-aos="fade-down"
               data-aos-duration="1000"
               className={styles.row}
@@ -50,9 +50,9 @@ export default function Artist() {
                   C’est un des premiers français à ramener le <strong>style Low Poly Papercraft</strong> et à le retranscrire sur du métal : sa marque de fabrique est née. Il associe un savoir-faire artisanal agrémenté d’un certain esthétisme qui aboutit à un savant mélange entre la dureté du métal et la douceur de l’art. Une conception osée et affirmée qui représente parfaitement Arcanis.
                 </p>
               </div>
-            </div>
+            </article>
 
-            <div 
+            <article 
               data-aos="fade-left"
               data-aos-duration="1000"
               className={styles.row}
@@ -69,9 +69,9 @@ export default function Artist() {
                 Il s’attaque ensuite au monde de l’automobile, à la maroquinerie, et va jusqu’à faire un clin d’œil à de grands noms du design comme <strong>Charles et Ray Eames</strong>.
                 L’engouement autour d’Arcanis en témoigne, « Le Bateau » se mêle à tous les milieux et met tout le monde d’accord.
               </p>
-            </div>
+            </article>
 
-            <div 
+            <article 
               data-aos="fade-right"
               data-aos-duration="1000"
               className={styles.row}
@@ -86,15 +86,15 @@ export default function Artist() {
                 <strong>Arcanis</strong> raconte son évolution dans ses œuvres et démontre qu’avec de la passion et un certain savoir-faire, tout est possible.
                 La richesse de ses influences, et sa volonté à se connecter au plus grand nombre lui assure un futur prometteur. Il vous invite dans un univers affirmé et novateur qui éblouit par la beauté du geste et la précision de l’exécution. Un renouveau qui ne cessera de vous étonner.
               </p>
-            </div>
+            </article>
 
-          </div>
-        </div>
-      </div>
-      <div className={styles.actions}>
+          </section>
+        </section>
+      </section>
+      <section className={styles.actions}>
         <h2>Retrouvez les oeuvres d&#39;Arcanis sur ses différentes plateformes</h2>
         <Socials />
-      </div>
+      </section>
     </Layout>
   )
 }

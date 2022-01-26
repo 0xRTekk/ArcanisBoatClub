@@ -14,16 +14,16 @@ export default function Roadmap() {
     <Layout roadmap>
       <div className={styles.wrapper}>
         <h1>Carte au trésor</h1>
-        <div className={styles.roadmap}>
+        <section className={styles.roadmap}>
           <p>
             Chaque nouveau capitaine participe à la quête vers le trésor. Chaque pourcentage de vente (*des 10 000 bateaux) effectué débloque un nouveau palier de la carte. À chaque objectif de vente rempli, de nouveaux cadeaux seront disponibles sur l’Arcanis Boat Club. Plus la flotte sera grande et plus vous obtenez d’avantages. Et puisque la traversée se fait en équipe, vous devenez aussi membre du mouvement OTE : Own to Earn. 
           </p>
           <RoadmapComponent />
-        </div>
-        <div className={styles.actions}>
+        </section>
+        <section className={styles.actions}>
           <h2>Retrouvez les oeuvres d&#39;Arcanis sur ses différentes plateformes</h2>
             <Socials />
-        </div>
+        </section>
       </div>
     </Layout>
   )

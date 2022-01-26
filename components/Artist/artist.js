@@ -12,8 +12,8 @@ export default function Artist() {
       date-aos-delay="1000"
       className={styles.artist}>
       <h2>Arcanis</h2>
-      <div className={styles.about}>
-        <div className={styles.bio}>
+      <section className={styles.about}>
+        <section className={styles.bio}>
           <p>Au départ, <strong>Arcanis</strong> n’était pas voué à une carrière dans l’art, et pourtant …</p>
             <p>
               Véritable produit des années 90, Arcanis retranscrit tout son héritage culturel, son histoire, et sa technique via son concept <strong>« Le Bateau »</strong>.
@@ -28,7 +28,7 @@ export default function Artist() {
             />
             </Link>
             
-        </div>
+        </section>
         <div className={styles.picture}>
           <Image 
             src={arcanis_pic}
@@ -36,7 +36,7 @@ export default function Artist() {
             alt="Photo de l'artiste Arcanis"
           />
         </div>
-      </div>
+      </section>
     </div>
   )
 }

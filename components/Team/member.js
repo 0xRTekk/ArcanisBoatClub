@@ -3,7 +3,7 @@ import styles from './Team.module.css'
 
 export default function Member({ memberImg, memberName, memberRole, fadeDirection, fadeDuration, fadeDelay}) {
   return (
-    <div className={styles.teammemeber}>
+    <article className={styles.teammemeber}>
       <div data-aos-duration={fadeDuration} data-aos={fadeDirection} data-aos-delay={fadeDelay} className={styles.memberclone}>
         <div className={styles.memberdetails}>
           <h3>
@@ -15,6 +15,6 @@ export default function Member({ memberImg, memberName, memberRole, fadeDirectio
           <Image src={memberImg} alt={"NFt de " + memberName} />
         </div>
       </div>
-    </div>
+    </article>
   );
 }
