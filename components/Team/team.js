@@ -3,7 +3,7 @@ import Member from "./member";
 import styles from "./Team.module.css";
 import arcanis from "../../public/assets/images/1.png";
 import tekky from "../../public/assets/images/15.png";
-import zozore from "../../public/assets/images/18.png";
+import zozore from "../../public/assets/images/19.png";
 
 export default function Team() {
   return (
@@ -22,7 +22,7 @@ export default function Team() {
           memberImg={tekky}
           fadeDirection="fade-down"
           fadeDuration="1000"
-          fadeDelay="1000"
+          fadeDelay="500"
         />
         <Member
           memberName="Zozore"
@@ -30,7 +30,7 @@ export default function Team() {
           memberImg={zozore}
           fadeDirection="fade-down"
           fadeDuration="1000"
-          fadeDelay="1500"
+          fadeDelay="1000"
         />
       </section>
     </div>

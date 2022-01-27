@@ -22,7 +22,6 @@ export default function Team() {
           <TeamComponent />
         </section>
         <section className={styles.actions}>
-          <h2>Retrouvez les oeuvres d&#39;Arcanis sur ses différentes plateformes</h2>
           <Socials />
         </section>
       </div>
