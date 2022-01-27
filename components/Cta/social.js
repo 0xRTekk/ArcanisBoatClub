@@ -12,9 +12,6 @@ export default function Social({ title, image, href }) {
           className={styles.picture}
           alt={'Logo ' + title}
         />
-        <div>
-          <p>{title}</p>
-        </div>
       </a>
   )
 }

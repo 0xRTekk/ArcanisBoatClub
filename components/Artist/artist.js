@@ -9,7 +9,6 @@ export default function Artist() {
     <div 
       data-aos="fade-down"
       data-aos-duration="1000"
-      date-aos-delay="1000"
       className={styles.artist}>
       <h2>Arcanis</h2>
       <section className={styles.about}>

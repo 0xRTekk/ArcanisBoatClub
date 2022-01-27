@@ -3,8 +3,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    border-radius: 4px;
-    background-color: #244479;
 }
 
 .social_cta p {
@@ -12,6 +10,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .social_cta * {
+    width: 50px !important;
+    height: 50px !important;
+  }
   .social_cta p {
     font-size: 1rem;
     font-weight: 800;

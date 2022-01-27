@@ -11,9 +11,7 @@ import tiktok from "../../public/assets/images/tiktok.svg";
 
 export default function Socials() {
   return(
-    <section 
-      data-aos="fade-up"
-      data-aos-duration="1000"
+    <section
       className={styles.row, styles.socials}
     >
       <Link href="https://discord.gg/zmB9CHc2pp" passHref>
