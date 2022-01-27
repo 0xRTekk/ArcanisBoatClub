@@ -23,7 +23,7 @@ export default function Artist() {
             </p>
             <Link href="/artist" passHref>
             <Cta
-              title="Rencontrez le commandant"
+              title="Rencontre avec l'artiste"
               className={styles.cta}
             />
             </Link>
