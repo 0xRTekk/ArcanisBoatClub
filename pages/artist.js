@@ -22,7 +22,7 @@ export default function Artist() {
         data-aos-duration="1000"
         className={styles.wrapper}
       >
-        <h1>Commandant Arcanis</h1>
+        <h1>Rencontre avec l&#39;artiste</h1>
         <p>
           Au départ, <strong>Arcanis</strong> n’était pas voué à une carrière dans l’art, et pourtant …
         </p>
@@ -92,7 +92,6 @@ export default function Artist() {
         </section>
       </section>
       <section className={styles.actions}>
-        <h2>Retrouvez les oeuvres d&#39;Arcanis sur ses différentes plateformes</h2>
         <Socials />
       </section>
     </Layout>
