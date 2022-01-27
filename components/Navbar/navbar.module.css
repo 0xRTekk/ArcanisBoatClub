@@ -35,7 +35,7 @@
 .navigation li {
     list-style: none;
     display: inline-block;
-    color: white;
+    color: #a9a9a9;
     width: 45%;
     margin: 0.5em 0;
 }
@@ -44,8 +44,12 @@
     display: block;
     width: 100%;
     padding: 1em 0.7em;
-    background-color: #244479;
-    border-radius: 4px;
+    font-family: 'futura';
+    transition: color 400ms ease-in-out;
+}
+
+.navigation a:hover {
+  color: #666666;
 }
 
 .navigation a span {
