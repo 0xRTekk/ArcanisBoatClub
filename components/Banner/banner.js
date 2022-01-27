@@ -12,7 +12,7 @@ export default function Banner() {
       className={styles.banner}>
       <section className={styles.intro_text}>
         <header className={styles.intro_heading}>
-          <h1>ARCANIS BOAT CLUB <span>10 000 bateaux attendant leur capitaine.</span></h1>
+          <h1>Arcanis boat club <span>10 000 bateaux attendant leur capitaine.</span></h1>
         </header>
         
         <p>

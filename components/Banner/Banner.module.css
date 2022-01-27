@@ -9,6 +9,7 @@
 }
 
 .intro_heading h1 {
+  text-transform: capitalize;
   text-align: center;
   font-size: 2em;
   margin: 0;
