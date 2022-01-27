@@ -69,6 +69,11 @@
   .intro_text strong {
     padding: 0.1em 0.5em;
   }
+
+  .picture {
+    width: 50%;
+    margin: 3em auto 0;
+  }
 }
 
 @media screen  and (min-width: 1024px) {

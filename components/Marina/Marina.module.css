@@ -1,6 +1,5 @@
 .marina {
   padding: 2em 1.5em 0;
-  background-color: #1c1b1b;
   font-size: .9em;
   color: #a9a9a9;
   letter-spacing: 0.1px;
@@ -15,13 +14,10 @@
 .marina h2 {
   margin: 0;
   margin-bottom: 1em;
-  font-size: 2.5em;
+  font-size: 2em;
   text-align: center;
-  text-transform: uppercase;
-  background-image: linear-gradient(144deg,#00396C, #395C93 50%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  text-transform: capitalize;
+  color: #a9a9a9;
 }
 
 .manifesto strong {
@@ -40,11 +36,19 @@
   margin-bottom: 1em;
 }
 
+@media screen and (min-width: 768px) {
+  .marina {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .marina {
     font-size: 1em;
     letter-spacing: .5px;
     line-height: 1.6;
+    padding: 0;
   }
 }
 
