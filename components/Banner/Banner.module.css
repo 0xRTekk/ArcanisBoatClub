@@ -5,13 +5,12 @@
 }
 
 .intro_heading {
-  order: 1;
   margin-bottom: 1.5em;
 }
 
 .intro_heading h1 {
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2em;
   margin: 0;
   font-weight: 800;
   background: linear-gradient(90deg, #C15900, #C13A5C);
@@ -27,7 +26,6 @@
 }
 
 .intro_text {
-  order: 3;
   color: #cecece;
 }
 
@@ -48,8 +46,8 @@
 }
 
 .picture {
-  order: 2;
-  margin-bottom: 1.5em;
+    width: 70%;
+    margin: 2em auto;
 }
 
 .picture img {
@@ -62,13 +60,13 @@
 }
 
 @media screen  and (min-width: 768px) {
-  .intro_text strong {
-    padding: 0.1em 0.5em;
+  .intro_text {
+    width: 80%;
+    margin: auto;
   }
 
-  .picture {
-    width: 60%;
-    margin: 0 auto;
+  .intro_text strong {
+    padding: 0.1em 0.5em;
   }
 }
 
@@ -76,18 +74,31 @@
   .banner {
     flex-direction: row;
     flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .intro_heading {
     width: 100%;
   }
 
+  .intro_heading h1 {
+    text-align: left;
+  }
+
   .intro_text {
-    order: 2;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     width: 50%;
+  }
+
+  .intro_text p {
+    padding: 0;
+  }
+
+  .intro_text p:nth-child(3) {
+    margin-bottom: 3em;
   }
 
   .intro_text strong {
@@ -95,7 +106,6 @@
   }
 
   .picture {
-    order: 3;
     width: 50%;
     margin: 0;
   }
@@ -103,7 +113,7 @@
 
 @media screen  and (min-width: 1440px) {
   .intro_heading h1 {
-    font-size: 3.5em;  
+    font-size: 2em;  
   }
 
   .intro_text {

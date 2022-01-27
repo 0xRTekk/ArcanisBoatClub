@@ -6,33 +6,33 @@ export default function Navbar() {
   return (
     <div data-aos-duration="500" data-aos="fade-down" className={styles.navbar}>
       <div className={styles.logo}>
-        <Image 
-          src="/assets/images/logo.png"
-          width="150px"
-          height="150px"
-          alt='Arcanis Boat Club Logo'
-        />
+        <Link href="/">
+          <a>
+              <Image
+                src="/assets/images/logo.png"
+                width="150px"
+                height="150px"
+                alt='Arcanis Boat Club Logo'
+              />
+          </a>
+        </Link>
+        
       </div>
       <nav className={styles.navigation}>
         <ul>
           <li>
-            <Link href="/">
-              <a><span>01.</span>Accueil</a>
+            <Link href="/roadmap">
+              <a>Carte au trésor</a>
             </Link>
           </li>
           <li>
             <Link href="/artist">
-              <a><span>02.</span>Artiste</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/roadmap">
-              <a><span>03.</span>Carte au trésor</a>
+              <a>Artiste</a>
             </Link>
           </li>
           <li>
             <Link href="/team">
-              <a><span>04.</span>Equipe</a>
+              <a>Equipe</a>
             </Link>
           </li>
         </ul>

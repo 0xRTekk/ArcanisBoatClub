@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Cta from '../Cta/cta'
 import styles from './Artist.module.css'
-import arcanis_pic from '../../public/assets/images/arcanis_pic_small.png'
+import arcanis_pic from '../../public/assets/images/arcanis_pic.jpg'
 import Link from 'next/link'
 
 export default function Artist() {

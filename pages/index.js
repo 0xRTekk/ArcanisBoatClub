@@ -4,8 +4,6 @@ import Banner from '../components/Banner/banner'
 import SliderComponent from '../components/SliderComponent/sliderComponent'
 import Artist from '../components/Artist/artist'
 import Marina from '../components/Marina/marina'
-import styles from '../public/assets/styles/Home.module.css'
-import utilStyles from '../public/assets/styles/utils.module.css'
 
 export default function Home() {
   return (

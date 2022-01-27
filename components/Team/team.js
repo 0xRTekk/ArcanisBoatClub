@@ -1,10 +1,9 @@
 import Member from "./member";
 
 import styles from "./Team.module.css";
-import arcanis from "../../public/assets/images/9.png";
+import arcanis from "../../public/assets/images/1.png";
 import tekky from "../../public/assets/images/15.png";
-import darnom from "../../public/assets/images/7.png";
-import zozore from "../../public/assets/images/6.png";
+import zozore from "../../public/assets/images/18.png";
 
 export default function Team() {
   return (
@@ -18,14 +17,6 @@ export default function Team() {
           fadeDuration="1000"
         />
         <Member
-          memberName="Darnom"
-          memberRole="Galleriste"
-          memberImg={darnom}
-          fadeDirection="fade-down"
-          fadeDuration="1000"
-          fadeDelay="500"
-        />
-        <Member
           memberName="Tekky"
           memberRole="Developpeur"
           memberImg={tekky}
@@ -35,7 +26,7 @@ export default function Team() {
         />
         <Member
           memberName="Zozore"
-          memberRole="Copyrighteuse"
+          memberRole="copywriteuse"
           memberImg={zozore}
           fadeDirection="fade-down"
           fadeDuration="1000"

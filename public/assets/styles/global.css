@@ -1,6 +1,9 @@
+@import url('satoshi.css');
+
+
 @font-face {
   font-family: futura;
-  src: url(../fonts/Futura_Std_Bold_Oblique.otf);
+  src: url(../fonts/futura_bold_oblique.otf);
 }
 
 html,
@@ -10,12 +13,17 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #333333;
+  background: #000;
   overflow-x: hidden !important;
 }
 
 h1, h2, h3 {
   font-family: 'futura', cursive;
+}
+
+p {
+  color: #a9a9a9;
+  font-family: 'Satoshi-Regular', sans-serif;
 }
 
 a {
