@@ -1,4 +1,5 @@
 .roadmap {
+  position: relative;
   margin-top: 3em;
   padding: 1em;
 }
@@ -50,8 +51,24 @@
   animation: 2s ease-in-out 1s infinite alternate pulse;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 375px) {
   .line {
+    height: 1800px;
+  }
+
+  .start_line {
+    left: 28%;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .start_line {
+    left: 30%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+    .line {
     height: 1700px;
   }
 
@@ -72,7 +89,7 @@
   }
 
   .line {
-    height: 1500px;
+    height: 1425px;
   }
 
   .start_line {
@@ -105,6 +122,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .line {
+    height: 1390px;
+  }
+
   .start_line {
     left: 45%;
   }
@@ -119,6 +140,10 @@
 }
 
 @media screen and (min-width: 2560px) {
+  .line {
+    height: 1350px;
+  }
+
   .start_line {
     left: 47%;
   }
