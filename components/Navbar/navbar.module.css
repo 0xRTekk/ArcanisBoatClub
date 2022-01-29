@@ -1,51 +1,71 @@
 .navbar {
   position: relative;
   display: flex;
-  align-items: center;
-  width: 80%;
-  justify-content: space-evenly;
   box-sizing: border-box;
   margin: 0 auto;
+  padding: 1em;
   z-index: 2;
 }
 
 .logo {
-  width: 30%;
-  display: none;
+  width: 25%;
+  /* display: none; */
+}
+
+.burgerMenu__navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.burgerMenu__navListItemLogo {
+  width: 50%;
+  margin: 0 auto 3em;
+}
+
+.burgerMenu__navListItem {
+  font-family: 'futura', sans-serif;
+  margin-bottom: 2em;
+}
+
+.burgerMenu .socials > section {
+  flex-wrap: wrap;
+  margin: 0;
 }
 
 .navigation {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    background-color: #272727;
-    padding: 1em 0;
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #272727;
+  padding: 1em 0;
 }
 
 .navigation ul {
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
 }
 
 .navigation li {
-    list-style: none;
-    display: inline-block;
-    color: #a9a9a9;
-    width: 45%;
-    margin: 0.5em 0;
+  list-style: none;
+  display: inline-block;
+  color: #a9a9a9;
+  width: 45%;
+  margin: 0.5em 0;
 }
 
 .navigation a {
-    display: block;
-    width: 100%;
-    padding: 1em 0.7em;
-    font-family: 'futura';
-    transition: color 400ms ease-in-out;
+  display: block;
+  width: 100%;
+  padding: 1em 0.7em;
+  font-family: 'futura';
+  transition: color 400ms ease-in-out;
 }
 
 .navigation a:hover {
@@ -63,13 +83,24 @@
 }
 
 @media screen  and (min-width: 768px) {
+  .navbar {
+    align-items: center;
+    width: 80%;
+    justify-content: space-evenly;
+  }
+  
   .logo {
     display: block;
     width: unset;
   }
 
+  .navbar div:last-of-type {
+    visibility: hidden;
+  }
+
   .navigation {
-    position:unset;
+    display: block;
+    position: unset;
     z-index: 0;
     background-color: unset;
     padding: 0;
