@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 import Head from 'next/head'
 import styles from './layout.module.css'
-import utilStyles from '../../public/assets/styles/utils.module.css'
+import og_img from '../../public/assets/images/9.png'
 
 import Navbar from '../Navbar/navbar'
 import Footer from '../Footer/footer'
@@ -21,14 +21,14 @@ export default function Layout({ children, meta }) {
     <div className={styles.container}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="author" content="Tekkz" />
+        <meta name="author" content="Tekky" />
         <meta name="description" content={siteDescription} />
         <meta name="robots" content="index, follow" />
 
         <meta property="og:title" content={siteTitle} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.arcanisboatclub.com/" />
-        <meta property="og:image" content="https://www.arcanisboatclub.com/static/media/15.6b753ab2.png" />
+        <meta property="og:image" content={og_img} />
         <meta property="og:description" content={siteDescription} />
         <meta property="og:locale" content="en_GB" />
         <meta property="og:locale:alternate" content="fr_FR" />
