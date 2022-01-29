@@ -1,11 +1,11 @@
 .wrapper {
-  color: #cecece;
+  padding: 1em;
 }
 
 .wrapper h1 {
   text-align: center;
-  text-transform: uppercase;
-  font-size: 2.5em;
+  text-transform: capitalize;
+  font-size: 2em;
   padding: .5em 0;
   margin: 0;
   font-weight: 800;
@@ -15,31 +15,47 @@
   -webkit-text-fill-color: transparent;
 }
 
-.roadmap {
-  padding: 1em;
+.description {
+  font-size: 0.9em;
+  padding: 0.3em 1em;
+  letter-spacing: 0.3px;
+  line-height: 1.5;
 }
 
-.actions {
-  padding: 1.5em;
-  text-align: center;
-  background-color: #1c1b1b;
+.wrapper strong {
+  font-size: 1.05em;
+  font-weight: bold;
   color: #cecece;
 }
 
-.actions h2 {
-  margin-bottom: 2em;
+.actions {
+  padding: 0 1.5em;
 }
 
 @media screen and (min-width: 768px) {
-
+  .description {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .description > p {
+    font-size: 1em;
+    letter-spacing: .5px;
+    line-height: 1.6;
+  }
+
   .actions {
-    padding: 3em;
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1440px) {
-
+    .description > p {
+    font-size: 1.3em;
+    letter-spacing: .7px;
+    line-height: 1.8;
+  }
 }

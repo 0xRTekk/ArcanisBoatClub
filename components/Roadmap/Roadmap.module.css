@@ -1,141 +1,100 @@
-.roadmap-container {
-  /* margin-top: 10vh; */
-}
-.roadmap span {
-  color: white;
-  margin-right: 1vw;
-  font-size: 20px;
-}
-.roadmap h3 {
-  background: linear-gradient(90deg, #CE4B2A, #EA8503); 
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 30px;
-  margin: 0;
-  margin-left: 10px;
-}
 .roadmap {
-  color: white;
-  /* min-height: 120vh; */
+  margin-top: 3em;
+  padding: 1em;
 }
-.roadmap > div {
-  background: #1C1B1B;
-  width: 808px;
-  padding: 50px 0;
-  margin: 5vh auto;
-  padding-left: 100px;
-  padding-right: 40px;
-  box-sizing: border-box;
-  text-align: left;
+
+.card {
+  margin-bottom: 5em;
+  padding: 1.5em;
+  background-color: #191919;
+  border: 1px solid #a9a9a9;
+  border-radius: 4px;
 }
-.unknown-div {
-  display: flex;
-  justify-content: center;
-}
-.road-intro {
-  color: white;
-  width: 577px;
+
+.title {
   text-align: center;
-  margin: 0 auto;
-  margin-bottom: 10vh;
-  min-height: 30vh;
-}
-.road-intro h2 {
-  font-size: 46px;
-}
-.road-intro p {
-  color: #848198;
-  font-size: 18px;
-  line-height: 180%;
+  font-size: 1em;
+  color: #cecece;
 }
 
-.roadmap p {
-  color: #848198;
-  font-size: 18px;
-  line-height: 180%;
-}
-.vertical-line {
-  position: relative;
-  width: 1px !important;
-  left: 60px;
-  z-index: 1000;
-  background: hsla(0, 0%, 100%, 0.4);
-}
-.line-line {
-  position: absolute;
-  margin-top: -160px;
-  margin-left: -42px !important;
-  /* background: #ff79a8; */
-  background: #CE4B2A;
-  z-index: 100000;
-  /* background: linear-gradient(180deg, #ff79a8, #d02561 49%); */
-  background: linear-gradient(180deg, #CE4B2A, #EA8503 49%);
-  width: 3px;
-  height: 170px;
+.title span {
+  font-size: 2em;
+  font-weight: bold;
 }
 
-.diamond-raod {
-  background: #1C1B1B;
-  position: absolute;
-  margin-top: -5px;
-  margin-left: -60px;
-  padding: 10px;
-  z-index: 100000 !important;
-  display: block;
+@media screen and (min-width: 768px) {
+  
 }
-@media screen and (max-width: 850px) {
-  .line-line {
-    margin-top: -100px;
-    height: 100px;
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 48%;
+    margin-top: 2em;
+    margin-bottom: 0;
   }
-  .roadmap > div {
-    width: 700px !important;
+
+  .card:first-of-type {
+    margin-top: 10em;
   }
-}
-@media screen and (max-width: 750px) {
-  .roadmap > div {
-    width: 600px !important;
+
+  .card:nth-child(2n + 2) {
+    margin-left: auto;
   }
-  .road-intro {
-    width: 90%;
+
+  .line {
+    width: 3px;
+    position: absolute;
+    background-color: #cecece;
+    height: 1500px;
+    left: 50%;
   }
-  .roadmap h3 {
-    font-size: 24px;
-    margin-left: 0;
+
+  .progression {
+    width: 3px;
+    height: 80px;
+    position: absolute;
+    background: linear-gradient(90deg, #C15900, #C13A5C);
   }
-  .roadmap div div {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start !important;
+
+  .start_line {
+    position: absolute;
+    left: 42%;
+    transform: rotate(347deg);
+    animation: 2s ease-in-out 1s infinite alternate pulse;
+  }
+
+  .progression_dot {
+    position: absolute;
+    left: 49.4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #cecece;
+  }
+
+  .inner_dot {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #000;
   }
 }
 
-@media screen and (max-width: 650px) {
-  .roadmap > div {
-    width: 450px !important;
-    padding-right: 20px;
-  }
-  .roadmap p {
-    font-size: 16px;
+@media screen and (min-width: 1440px) {
+  .start_line {
+    left: 45%;
   }
 }
-@media screen and (max-width: 500px) {
-  .roadmap > div {
-    background: #1C1B1B;
-    width: 370px !important;
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
   }
-  .roadmap h3 {
-    font-size: 24px;
-  }
-}
-@media screen and (max-width: 350px) {
-  .vertical-line,
-  .line-line,
-  .diamond-raod {
-    display: none;
-  }
-  .roadmap > div {
-    width: 100% !important;
-    padding: 40px;
+  to {
+    transform: scale(0.8);
   }
 }
