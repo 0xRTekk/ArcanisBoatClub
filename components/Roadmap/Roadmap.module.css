@@ -90,6 +90,12 @@
   }
 }
 
+@media screen and (min-width: 2560px) {
+  .start_line {
+    left: 47%;
+  }
+}
+
 @keyframes pulse {
   from {
     transform: scale(1);
