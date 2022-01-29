@@ -32,7 +32,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link href="/team">
-              <a>Equipe</a>
+              <a>Equipage</a>
             </Link>
           </li>
         </ul>

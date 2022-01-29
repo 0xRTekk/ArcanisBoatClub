@@ -17,7 +17,7 @@ export default function Team() {
         data-aos-duration="1000"
         className={styles.wrapper}
       >
-        <h1>Rencontrez l&#39;équipage</h1>
+        <h1>Rencontre avec l&#39;équipage</h1>
         <section className={styles.team}>
           <TeamComponent />
         </section>
