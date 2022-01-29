@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Layout from '../components/Layout/layout.js'
 import TeamComponent from '../components/Team/team.js'
 import Socials from '../components/Cta/socials'
@@ -12,6 +13,12 @@ const meta = {
 export default function Team() {
   return (
     <Layout team>
+
+      <Head>
+        <title>{meta.title}</title>
+        <meta property='description' content={meta.description} />
+      </Head>
+
       <div 
         data-aos="fade-down"
         data-aos-duration="1000"

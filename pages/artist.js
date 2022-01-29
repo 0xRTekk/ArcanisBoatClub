@@ -17,6 +17,12 @@ const meta = {
 export default function Artist() {
   return(
     <Layout artist>
+
+      <Head>
+        <title>{meta.title}</title>
+        <meta property='description' content={meta.description} />
+      </Head>
+
       <section 
         data-aos="fade-down"
         data-aos-duration="1000"

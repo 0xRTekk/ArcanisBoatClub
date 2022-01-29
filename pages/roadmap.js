@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Layout from '../components/Layout/layout.js'
 import RoadmapComponent from '../components/Roadmap/roadmap'
 import Socials from '../components/Cta/socials'
@@ -12,6 +13,12 @@ const meta = {
 export default function Roadmap() {
   return (
     <Layout roadmap>
+
+      <Head>
+        <title>{meta.title}</title>
+        <meta property='description' content={meta.description} />
+      </Head>
+      
       <div data-aos-duration="700" data-aos="fade-down" className={styles.wrapper}>
         <h1>Carte au trésor</h1>
         <section className={styles.description}>
