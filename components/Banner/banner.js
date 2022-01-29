@@ -1,6 +1,7 @@
 import Cta from '../Cta/cta'
 import styles from "./Banner.module.css"
 import bannerPicture from '../../public/assets/images/1.png'
+import nft_badge from '../../public/assets/images/nft_badge_small.png';
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -31,6 +32,12 @@ export default function Banner() {
       </section>
 
         <div className={styles.picture}>
+          <div className={styles.nft_badge}>
+            <Image
+              src={nft_badge}
+              alt="bagde nft coming soon"
+            />
+          </div>
           <Image 
             src={bannerPicture}
             placeholder="blur"

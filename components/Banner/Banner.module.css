@@ -44,8 +44,18 @@
 }
 
 .picture {
-    width: 70%;
-    margin: 2em auto;
+  position: relative;
+  width: 70%;
+  margin: 2em auto;
+}
+
+.nft_badge {
+  position: absolute;
+  z-index: 1;
+  transform: scale(0.7);
+  top: -30px;
+  right: -60px;
+  animation: 2s ease-in-out 1s infinite alternate pulse;
 }
 
 .picture img {
@@ -66,6 +76,13 @@
   .picture {
     width: 50%;
     margin: 3em auto 0;
+  }
+
+  .nft_badge {
+    position: absolute;
+    z-index: 1;
+    transform: rotate(344deg);
+    right: -50px;
   }
 }
 
@@ -118,5 +135,14 @@
 
   .picture {
     width: 40%;
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: rotate(344deg), scale(0.7);
+  }
+  to {
+    transform: scale(0.8);
   }
 }
