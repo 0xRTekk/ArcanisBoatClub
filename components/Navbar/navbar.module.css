@@ -13,6 +13,7 @@
 }
 
 .burgerMenu__navList {
+  border-color: transparent !important;
   list-style: none;
   padding: 0;
   margin: 0;
