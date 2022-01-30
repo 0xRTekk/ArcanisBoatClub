@@ -29,7 +29,7 @@ export default function Roadmap() {
         </header>
         <p className={styles.description}>
           Votre pseudo sera rajouté sur l&#39;oeuvre d&#39;art final qui representera l&#39;ArcanisBoatClub. 
-          Plusieur vidéos sur se réalisation vous seront partagés sera sur <Link href="https://www.youtube.com/channel/UCeRwKsQfnLTtjk1fQD7Kedg/" ><a>YouTube</a></Link> !
+          Plusieurs vidéos sur se réalisation vous seront partagés sera sur <Link href="https://www.youtube.com/channel/UCeRwKsQfnLTtjk1fQD7Kedg/" ><a>YouTube</a></Link> !
         </p>
       </article>
 
