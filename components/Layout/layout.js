@@ -23,12 +23,13 @@ export default function Layout({ children, meta }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Tekky" />
         <meta name="description" content={siteDescription} />
+        <meta name="theme-color" content="#000000" />
         <meta name="robots" content="index, follow" />
 
         <meta property="og:title" content={siteTitle} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.arcanisboatclub.com/" />
-        <meta property="og:image" content={og_img} />
+        <meta property="og:image" content="https://www.arcanisboatclub.com/assets/images/15.png" />
         <meta property="og:description" content={siteDescription} />
         <meta property="og:locale" content="en_GB" />
         <meta property="og:locale:alternate" content="fr_FR" />

@@ -2,7 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.arcanisboatclub.com/</loc>
-    <lastmod>2021-12-14</lastmod>
+    <lastmod>2022-01-30</lastmod>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.arcanisboatclub.com/roadmap/</loc>
+    <lastmod>2022-01-30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.arcanisboatclub.com/artist/</loc>
+    <lastmod>2022-01-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.arcanisboatclub.com/team/</loc>
+    <lastmod>2022-01-30</lastmod>
+    <priority>0.5</priority>
   </url>
 </urlset>
