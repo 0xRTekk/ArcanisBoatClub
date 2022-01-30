@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from "./Roadmap.module.css";
 import nft_badge from '../../public/assets/images/nft_badge_small.png';
 
@@ -27,7 +28,8 @@ export default function Roadmap() {
           <h2>L&#39;Arcanis Boat Club</h2>
         </header>
         <p className={styles.description}>
-          Votre pseudo sera rajouter sur l&#39;oeuvre d&#39;art final qui representera le ArcanisBoatClub qui fera l&#39;oeuvre d&#39;une grande video en plusieur partie sur youtube
+          Votre pseudo sera rajouté sur l&#39;oeuvre d&#39;art final qui representera l&#39;ArcanisBoatClub. 
+          Plusieur vidéos sur se réalisation vous seront partagés sera sur <Link href="https://www.youtube.com/channel/UCeRwKsQfnLTtjk1fQD7Kedg/" ><a>YouTube</a></Link> !
         </p>
       </article>
 
