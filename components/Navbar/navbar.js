@@ -100,6 +100,7 @@ export default function Navbar() {
       <Menu 
         styles={burgerMenuStyles} 
         right
+        disableAutoFocus
         className={styles.burgerMenu}
       >
         <ul className={styles.burgerMenu__navList}>
